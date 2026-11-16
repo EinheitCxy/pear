@@ -44,6 +44,7 @@ PEAR deploys with:
 
 - A [model server](examples/models/qwen3_8_27b_pear/deploy/README.md): vLLM server on one RTX 5090 or GB300, with decode megakernels
 - A [robot station](examples/models/qwen3_8_27b_pear/deploy/README.md#drive-a-robot): the agent loop that drives a YAM or an SO-101 robot
+- An [MLX-VLM station client](examples/models/qwen3_8_27b_mlx/deploy/README.md) for the community Qwen3.8-27B-4bit checkpoint
 
 ## Getting Started
 
@@ -66,6 +67,7 @@ Then start a Ray cluster and launch your first run:
 | Model | Recipes |
 | --- | --- |
 | [Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) | [train](examples/models/qwen3_8_27b_pear/train), [deploy](examples/models/qwen3_8_27b_pear/deploy) |
+| [Qwen3.8-27B-4bit (MLX)](https://huggingface.co/mlx-community/Qwen3.8-27B-4bit) | [station inference](examples/models/qwen3_8_27b_mlx/deploy/README.md) |
 
 ## Supported Environments
 
